@@ -4,6 +4,10 @@
     $(function () {
         // animate on scroll
         new WOW().init();
+        //show snackbar 
+        $('#snackbar').toggleClass('show');
+        setTimeout(function () { $('#snackbar').toggleClass('show'); }, 4000);
+        console.log("test")
     });
 
 /* ====================================================
